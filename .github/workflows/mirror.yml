@@ -88,7 +88,7 @@ jobs:
             branches: poc/efi_mem_attributes release/202111 release/202102
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           ref: refs/heads/main
           fetch-depth: 1
